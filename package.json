@@ -1,0 +1,32 @@
+{
+  "name": "ampersand-gifalicious-netmag",
+  "description": "Ampersand.js implementation of Gifalicious for net magazine",
+  "version": "1.0.0",
+  "author": "Kamil Ogórek <kamil.ogorek@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamilogorek/ampersand-gifalicious"
+  },
+  "scripts": {
+    "build": "browserify js/app.js -t html-browserify -o bundled.js",
+    "start": "watchify js/app.js -t html-browserify -o bundled.js"
+  },
+  "dependencies": {
+    "ampersand-collection": "^1.3.16",
+    "ampersand-form-view": "^2.0.0",
+    "ampersand-input-view": "^2.0.1",
+    "ampersand-router": "^1.0.5",
+    "ampersand-state": "^4.3.12",
+    "ampersand-view": "^7.1.4",
+    "ampersand-view-switcher": "^1.0.5",
+    "lodash.contains": "^2.4.1",
+    "lodash.max": "^2.4.1",
+    "lodash.pluck": "^2.4.1",
+    "lodash.result": "^2.4.1",
+    "browserify": "^6.0.3",
+    "html-browserify": "0.0.4"
+  },
+  "devDependencies": {
+    "watchify": "^2.0.0"
+  }
+}

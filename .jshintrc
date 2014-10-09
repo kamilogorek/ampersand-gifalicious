@@ -1,0 +1,34 @@
+{
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "indent": 4,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "plusplus": true,
+    "quotmark": true,
+    "undef": true,
+    "unused": true,
+    "strict": true,
+    "trailing": true,
+
+    "eqnull": true,
+
+    "browser": true,
+    "node": true,
+    "devel": true,
+
+    "globals": {
+        "app": true
+    },
+
+    "maxparams": 3,
+    "maxdepth": 3,
+    "maxstatements": 12,
+    "maxcomplexity": 6,
+    "maxlen": 160
+}
