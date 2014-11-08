@@ -84,9 +84,9 @@ renderForm: function () {
         placeholder: 'Where\'s this lovely gif\'s url?',
         tests: [
             function (val) {
-                var emailRegexp = /^https?:\/\/.+\.[A-Za-z]{2,}.+\.(gif|jpe?g|png)$/;
+                var urlRegexp = /^https?:\/\/.+\.[A-Za-z]{2,}.+\.(gif|jpe?g|png)$/;
 
-                if (!emailRegexp.test(val)) {
+                if (!urlRegexp.test(val)) {
                     return 'Please provide valid URL';
                 }
             }
